@@ -1,0 +1,121 @@
+header {
+    .logo {
+        height: 55px;
+    }
+    .name-link {
+        text-transform: capitalize;
+        text-decoration: none;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: none;
+            color: #cd4557;
+        }
+        color: #cd4557;
+    }
+    .search-icon {
+        color: #cd4557;
+    }
+    .main-link-nav {
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        &:hover {
+            a {
+                text-decoration: none;
+                color: #cd4557;
+            }
+        }
+        &:active,
+        &:focus {
+            background-color: #fff;
+            a {
+                color: #cd4557;
+            }
+        }
+    }
+    .dropdown-menu {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                transition: all 0.3s;
+                font-size: 20px;
+                margin: auto 10px;
+                &:hover {
+                    color: #cd4557;
+                }
+            }
+        }
+    }
+    border-bottom: 1px solid #cd4557;
+}
+.login-box {
+    .login-btn {
+        background-color: #cd4557;
+        color: #fff;
+        height: 45px;
+    }
+
+    .forgot-password-link {
+        color: #cd4557;
+    }
+
+    .register-link {
+        margin-top: 20px;
+        a {
+            text-decoration: none;
+            &:hover {
+                color: #cd4557;
+            }
+        }
+    }
+}
+
+.search-card {
+    background: rgba(103, 37, 43, 0.2);
+    height: 100%;
+    padding: 20px 5px;
+    .first-wrap {
+        width: 40%;
+        padding: 0px 10px;
+        input {
+            width: 100%;
+            &.form-control:focus {
+                box-shadow: #cd4557;
+            }
+        }
+    }
+
+    .second-wrap {
+        width: 40%;
+        padding: 0px 10px;
+        input {
+            width: 100%;
+            &.form-control:focus {
+                box-shadow: #cd4557;
+            }
+        }
+    }
+
+    .third-wrap {
+        width: 20%;
+        padding: 0px 10px;
+        .main-btn {
+            width: 100%;
+            &:hover {
+                background-color: #fff;
+                border: 1px solid #cd4557;
+                color: #cd4557;
+            }
+        }
+    }
+}

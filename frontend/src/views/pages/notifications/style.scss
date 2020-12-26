@@ -1,0 +1,24 @@
+#profile {
+    .padding-div {
+        padding: 60px 10px;
+    }
+    .sideNav {
+        .list-group-item {
+            cursor: pointer;
+            &:hover {
+                a {
+                    color: #cd4557;
+                }
+            }
+        }
+
+        .list-group-item.active {
+            background-color: #cd4557;
+            border: 1px solid #cd4557;
+        }
+    }
+    .not-div {
+        padding: 20px;
+        padding-top: 0px;
+    }
+}
